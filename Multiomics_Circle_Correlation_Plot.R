@@ -63,16 +63,16 @@ US_corr$padj <- p.adjust(US_corr$p, method = "BH")
 ## This filters out metabolites that are significantly associated with all three 
 US_corr <- US_corr %>%
   group_by(To) %>%
-  filter(all(padj < 0.05)) %>%
+  filter(all(padj < 0.1)) %>%
   ungroup()
 
 ## Make table of library and canopus IDs
 ## These dataframes come from iimn collapsed outputs from GNPS and Sirius
 lib_US <- US_corr %>% dplyr::select(To, From, cor)
 lib_US <- lib_US %>% pivot_wider(names_from = "From", values_from = "cor")
-lib <- read.csv("./Example_Data/library_matches.csv")
+lib <- read.csv("./Data/US/library_matches.csv")
 lib$Metabolite <- paste0("X", lib$Metabolite)
-can <- read.csv("./Example_Data/canopus_matches.csv")
+can <- read.csv("./Data/US/canopus_matches.csv")
 can$Metabolite <- paste0("X", can$Metabolite)
 lib_US <- right_join(lib, lib_US, by = c("Metabolite" = "To"))
 lib_US <- left_join(lib_US, can, by = "Metabolite")
@@ -160,46 +160,6 @@ SEED_Network <- ggraph(network_seed, layout = layout_manual) +
   geom_node_text(aes(x = x, y = y, label = name), size = 3, repel = TRUE, max.overlaps = Inf) +
   labs(edge_color = "Spearman")
 SEED_Network
-
-## Create random forest with metabolite list
-## Create a dataset with the important metabolites
-VIPs <- metabolites_US %>% dplyr::select(Sample, any_of(lib_US$Metabolite))
-
-## Read in the metadata 
-metadata <- read.csv("./Data/US/metadata_SEED.csv")
-
-## Merge data
-metadata <- metadata %>% dplyr::select(Sample, Child_1_Preterm_Birth) %>% filter(!is.na(Child_1_Preterm_Birth))
-merged_VIP <- inner_join(metadata, VIPs, by = "Sample")
-merged_full <- inner_join(metadata, metabolites_US, by = "Sample")
-
-set.seed(15)
-
-sample_index <- sample(seq_len(nrow(merged_full)), 0.7 * nrow(merged_full))
-
-train <- merged_full[sample_index, ]
-test  <- merged_full[-sample_index, ]
-
-
-rf_model <- randomForest(as.factor(Child_1_Preterm_Birth) ~ . - Sample, data = train, ntree = 1000)
-print(rf_model)
-imp <- as.data.frame(round(importance(rf_model), 2))
-
-predictions <- predict(rf_model, newdata = test)
-
-# Confusion Matrix
-table(Predicted = predictions, Actual = test$Child_1_Preterm_Birth)
-
-# Accuracy
-accuracy <- sum(predictions == test$Child_1_Preterm_Birth) / length(predictions)
-
-# Probabilities
-probabilities <- predict(rf_model, newdata = test, type = "prob")[,2]
-
-roc_obj <- roc(test$Child_1_Preterm_Birth, probabilities)
-
-plot(roc_obj, main="ROC Curve")
-auc(roc_obj)
 
 
 
