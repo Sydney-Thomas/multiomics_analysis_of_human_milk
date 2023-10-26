@@ -49,8 +49,8 @@ norm_iimn <- rbind(norm_iimn, iimn)
 
 ## Read in FBMN library IDs from GNPS
 library_ID <- read.delim("./Data/ES/FBMN_IDs.tsv")
-library_ID <- library_ID %>% dplyr::select(cluster.index, LibraryID, precursor.mass, componentindex)
-colnames(library_ID) <- c("row.ID", "LibraryID", "Precursor_Mass", "Network_Number")
+library_ID <- library_ID %>% dplyr::select(cluster.index, LibraryID, precursor.mass, componentindex, RTConsensus)
+colnames(library_ID) <- c("row.ID", "LibraryID", "Precursor_Mass", "Network_Number", "RTConsensus")
 library_ID$row.ID <- as.character(library_ID$row.ID)
 library_ID <- right_join(labels, library_ID, by = "row.ID", multiple = "all")
 library_ID[library_ID == "N/A"] <- NA
@@ -68,7 +68,15 @@ for (colname in c("LibraryID", "Precursor_Mass", "Network_Number")) {
     rename(!!colname := "concat")
   result_list[[colname]] <- result
 }
-
+## Calculte mean RT for all iimn ions
+for (colname in c("RTConsensus")) {
+  result <- library_ID %>%
+    filter(!is.na(annotation.network.number)) %>%
+    group_by(annotation.network.number) %>%
+    summarise(n = mean(!!sym(colname))) %>% 
+    rename(!!colname := "n")
+  result_list[[colname]] <- result
+}
 library_iimn <- result_list %>% reduce(full_join, by = "annotation.network.number") %>% rename("row.ID" = "annotation.network.number")
 library_iimn$row.ID <- paste0(library_iimn$row.ID, "_i")
 library_f <- library_ID %>% filter(is.na(annotation.network.number)) %>% dplyr::select(-annotation.network.number)
