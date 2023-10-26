@@ -11,9 +11,6 @@ library(RColorBrewer)
 library(randomForest)
 library(pROC)
 
-
-setwd('C:/Users/sthomas/OneDrive - University of California, San Diego Health/SEED Grant/Example Scripts')
-
 ## Read in metabolomics data 
 ## Data has been preprocessed using rclr and missing data imputation
 metabolites_US <- read.csv("./Data/US/Metabolites_normalized_imputed.csv")
