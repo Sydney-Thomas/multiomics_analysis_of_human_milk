@@ -10,7 +10,6 @@ library(rstatix)
 library(ggpubr)
 
 
-setwd('C:/Users/sthomas/OneDrive - University of California, San Diego Health/SEED Grant/Example Scripts')
 HMO <- read.csv("./Data/HMO_scaled_centered.csv")
 questionnaire <- read.csv("./Data/US/DFU_QuestionnaireData_03212022.csv")
 metadata <- read.csv("./Data/US/Metadata_SEED.csv")
@@ -77,7 +76,6 @@ microbiome <- microbiome %>% pivot_longer(Rothia:RV, names_to = "Microbe", value
 
 # Run correlation
 ITSEA_microbes <- microbiome %>% group_by(Test, Months, Microbe) %>% rstatix::cor_test(vars=c("Result"), vars2=c("Abundance"), method="spearman")
-
 
 # Plot results
 # Here, we filter the data just to look at externalizing subsection scores at 12 months (and one score which was clearly a typo)
