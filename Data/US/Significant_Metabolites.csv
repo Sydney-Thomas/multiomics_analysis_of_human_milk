@@ -1,73 +1,73 @@
-Metabolite,LibraryID,Precursor_Mass,Network_Number,Rothia,Veillonella,z6DDL,NPC.superclass,NPC.class,NPC.pathway,ClassyFire.superclass,ClassyFire.class,ClassyFire.subclass,ClassyFire.level.5
-X198,NA,558.1798,NA,0.22,0.15,-0.21,Polyols,Amino cyclitols,Carbohydrates,Organic oxygen compounds,Organooxygen compounds,Carbohydrates and carbohydrate conjugates,Aminosaccharides
-X234,NA,132.102,NA,-0.16,-0.16,0.17,Small peptides,Aminoacids,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
-X415,"Suspect related to O-ACETYLCARNITINE (predicted molecular formula: C12H23NO5) with delta m/z 58.042 (putative explanation: unspecified|PPG repeat unit|Reduced acrolein addition +58; atomic difference: 1C,4H,3N|3C,6H,1O|3C,6H,1O)",262.1651,154,0.16,0.16,-0.17,Fatty esters,Fatty acyl carnitines,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty acid esters,Acyl carnitines
-X917,"Suspect related to Spectral Match to Phe-Pro-Lys from NIST14 (predicted molecular formula: unknown) with delta m/z -34.021 (putative explanation: Tyr->Glu substitution; atomic difference: -4C,-2H,1O)",357.2136,182,-0.28,-0.24,0.38,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X972,NA,104.1071,NA,0.16,0.18,-0.3,Fatty acyls,Fatty alcohols,Alkaloids,Organic nitrogen compounds,Organonitrogen compounds,Quaternary ammonium salts,Tetraalkylammonium salts
-X1826,NA,587.3585,118,-0.21,-0.22,0.34,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X1936,NA,450.2786,537,-0.17,-0.23,0.24,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X1744,NA,171.1381,NA,-0.16,-0.18,0.2,Fatty Acids and Conjugates,Hydroxy fatty acids,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty alcohols,NA
-X1745,NA,328.2236,955,-0.16,-0.18,0.18,Small peptides,Dipeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X2154,NA,229.1053,NA,0.17,0.16,-0.19,Cyclic polyketides,2-pyrone derivatives,Polyketides,Organoheterocyclic compounds,Pyrans,Pyranones and derivatives,NA
-X2431,NA,450.2788,537,-0.17,-0.24,0.19,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X2568,NA,450.2788,537,-0.17,-0.19,0.25,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X2802,NA,536.3047,548,-0.2,-0.2,0.24,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X5190,NA,743.9009,71,-0.17,-0.24,0.27,Pseudoalkaloids,Marine-bacterial DPEs,Alkaloids,Organic acids and derivatives,Organic phosphoric acids and derivatives,Phosphate esters,NA
-X6813,NA,990.0616,12,-0.2,-0.2,0.37,NA,NA,NA,NA,NA,NA,NA
-X6815,NA,985.5545,12,-0.19,-0.18,0.34,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X6891,NA,979.5467,4,-0.19,-0.19,0.41,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X6640,NA,1027.0707,12,-0.18,-0.18,0.19,NA,NA,NA,NA,NA,NA,NA
-X7067,NA,1347.0945,409,-0.16,-0.19,0.21,NA,NA,NA,NA,NA,NA,NA
-X7087,NA,1010.5724,12,-0.17,-0.21,0.21,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7086,NA,1010.3222,12,-0.15,-0.19,0.22,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X6938,NA,808.6595,NA,-0.18,-0.2,0.2,Oligopeptides,Lipopeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
-X7078,NA,1010.8227,12,-0.16,-0.19,0.21,NA,NA,NA,NA,NA,NA,NA
-X6960,NA,1361.7649,409,-0.18,-0.17,0.18,Tyrosine alkaloids,Marine-bacterial DPEs,Alkaloids,Organohalogen compounds,Aryl halides,NA,NA
-X7070,NA,1021.5737,12,-0.16,-0.16,0.17,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic Polymers,Polypeptides,NA,NA
-X7665,NA,1112.0306,159,-0.17,-0.17,0.37,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7663,NA,927.0273,159,-0.17,-0.19,0.36,Coumarins,Simple coumarins,Shikimates and Phenylpropanoids,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7106,NA,1115.2372,159,-0.21,-0.22,0.42,NA,NA,NA,NA,NA,NA,NA
-X7098,NA,1111.8316,159,-0.24,-0.23,0.45,NA,NA,NA,NA,NA,NA,NA
-X7308,NA,1140.847,159,-0.2,-0.22,0.32,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7259,NA,950.704,159,-0.22,-0.18,0.34,NA,NA,NA,NA,NA,NA,NA
-X7310,NA,1140.4442,29,-0.19,-0.16,0.35,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7267,NA,1420.0494,NA,-0.18,-0.16,0.29,NA,NA,NA,NA,NA,NA,NA
-X7465,NA,943.2057,159,-0.21,-0.17,0.31,Small peptides,Purine nucleos(t)ides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7326,NA,1414.8042,29,-0.22,-0.18,0.29,NA,NA,NA,NA,NA,NA,NA
-X6887,NA,946.0438,159,-0.21,-0.16,0.34,Phenolic acids (C6-C1),Gallotannins,Shikimates and Phenylpropanoids,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
-X7432,NA,946.7065,NA,-0.22,-0.17,0.33,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7385,NA,1131.8453,159,-0.22,-0.17,0.34,Oligopeptides,Microginins,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7491,NA,1132.2447,NA,-0.22,-0.18,0.34,NA,NA,NA,NA,NA,NA,NA
-X7387,NA,1131.6453,159,-0.23,-0.18,0.34,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7970,NA,946.2096,159,-0.23,-0.17,0.34,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7382,NA,1135.2504,159,-0.23,-0.18,0.35,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X8116,NA,1135.4504,159,-0.22,-0.17,0.33,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X7727,NA,1132.0452,159,-0.22,-0.16,0.32,NA,NA,NA,NA,NA,NA,NA
-X7397,NA,1419.8011,29,-0.21,-0.17,0.33,NA,NA,NA,NA,NA,NA,NA
-X7434,NA,1414.5538,29,-0.22,-0.17,0.3,Pseudoalkaloids,Marine-bacterial DPEs,Alkaloids,Organoheterocyclic compounds,NA,NA,NA
-X7416,NA,1414.3035,29,-0.21,-0.16,0.31,NA,NA,NA,NA,NA,NA,NA
-X7716,NA,1139.6441,152,-0.22,-0.18,0.32,NA,NA,NA,NA,NA,NA,NA
-X7904,NA,1419.0581,29,-0.26,-0.19,0.28,NA,NA,NA,NA,NA,NA,NA
-X7779,NA,1196.8661,NA,-0.19,-0.17,0.31,NA,NA,NA,NA,NA,NA,NA
-X7807,NA,1200.2716,214,-0.2,-0.18,0.33,NA,NA,NA,NA,NA,NA,NA
-X7802,NA,1200.0714,214,-0.21,-0.18,0.3,NA,NA,NA,NA,NA,NA,NA
-X9274,NA,1413.3861,62,-0.23,-0.2,0.18,NA,NA,NA,NA,NA,NA,NA
-X10093,NA,886,62,-0.16,-0.21,0.19,Anthranilic acid alkaloids,Purine nucleos(t)ides,Alkaloids,Organoheterocyclic compounds,Diazines,Pyrimidines and pyrimidine derivatives,Pyrimidones
-X9699,NA,917.1643,89,-0.23,-0.19,0.21,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X9902,NA,917.2359,89,-0.19,-0.16,0.17,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X9901,NA,987.7926,89,-0.19,-0.17,0.27,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10310,NA,856.1534,107,-0.18,-0.19,0.29,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10477,NA,917.0198,1029,-0.18,-0.19,0.27,Oligopeptides,Cyclic peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10361,NA,918.7366,716,-0.19,-0.16,0.26,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10308,NA,919.7399,89,-0.19,-0.18,0.27,Ornithine alkaloids,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10441,NA,917.1638,89,-0.24,-0.21,0.28,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10379,NA,918.235,89,-0.18,-0.2,0.23,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
-X10525,NA,517.241,54,0.22,0.24,-0.16,Glycerophospholipids,Glycerophosphoinositols,Fatty acids,Lipids and lipid-like molecules,Glycerophospholipids,Glycerophosphoinositols,Lysophosphatidylinositols
-X11106,NA,291.199,315,0.24,0.2,-0.48,Fatty Acids and Conjugates,Branched fatty acids,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty acids and conjugates,Medium-chain fatty acids
-X103_i,NA,1021.32 OR 1027.3242,12,-0.17,-0.2,0.2,NA,NA,NA,NA,NA,NA,NA
-X104_i,NA,1015.8199 OR 1021.8264 OR 1021.8284,12,-0.16,-0.2,0.19,NA,NA,NA,NA,NA,NA,NA
-X117_i,NA,855.9518 OR 857.4216,107,-0.18,-0.15,0.16,NA,NA,NA,NA,NA,NA,NA
-X118_i,NA,987.4036 OR 988.8681,NA,-0.22,-0.18,0.21,NA,NA,NA,NA,NA,NA,NA
-X124_i,NA,987.4805 OR 987.4814 OR 988.9458 OR 988.9462 OR 988.9465,89 OR 1029,-0.19,-0.18,0.24,Pseudoalkaloids,Purine nucleos(t)ides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
-X66_i,NA,189.1122 OR 229.1053,1004,0.22,0.17,-0.26,Fatty Acids and Conjugates OR Saccharides,Hydroxy fatty acids OR Monosaccharides,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty acids and conjugates OR Fatty alcohols,Medium-chain fatty acids
-X95_i,NA,245.175 OR 285.1676,297,0.22,0.21,-0.36,Glycerolipids,Monoacylglycerols,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty alcohols,
+Metabolite,LibraryID,Precursor_Mass,Network_Number,RTConsensus,Rothia,Veillonella,z6DDL,NPC.superclass,NPC.class,NPC.pathway,ClassyFire.superclass,ClassyFire.class,ClassyFire.subclass,ClassyFire.level.5
+X198,NA,558.1798,NA,0.3368,0.22,0.15,-0.21,Polyols,Amino cyclitols,Carbohydrates,Organic oxygen compounds,Organooxygen compounds,Carbohydrates and carbohydrate conjugates,Aminosaccharides
+X234,NA,132.102,NA,0.3412,-0.16,-0.16,0.17,Small peptides,Aminoacids,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
+X415,"Suspect related to O-ACETYLCARNITINE (predicted molecular formula: C12H23NO5) with delta m/z 58.042 (putative explanation: unspecified|PPG repeat unit|Reduced acrolein addition +58; atomic difference: 1C,4H,3N|3C,6H,1O|3C,6H,1O)",262.1651,154,0.3694,0.16,0.16,-0.17,Fatty esters,Fatty acyl carnitines,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty acid esters,Acyl carnitines
+X917,"Suspect related to Spectral Match to Phe-Pro-Lys from NIST14 (predicted molecular formula: unknown) with delta m/z -34.021 (putative explanation: Tyr->Glu substitution; atomic difference: -4C,-2H,1O)",357.2136,182,0.5493,-0.28,-0.24,0.38,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X972,NA,104.1071,NA,0.6868,0.16,0.18,-0.3,Fatty acyls,Fatty alcohols,Alkaloids,Organic nitrogen compounds,Organonitrogen compounds,Quaternary ammonium salts,Tetraalkylammonium salts
+X1826,NA,587.3585,118,1.2859,-0.21,-0.22,0.34,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X1936,NA,450.2786,537,1.2895,-0.17,-0.23,0.24,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X1744,NA,171.1381,NA,1.2897,-0.16,-0.18,0.2,Fatty Acids and Conjugates,Hydroxy fatty acids,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty alcohols,NA
+X1745,NA,328.2236,955,1.2995,-0.16,-0.18,0.18,Small peptides,Dipeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X2154,NA,229.1053,NA,1.3796,0.17,0.16,-0.19,Cyclic polyketides,2-pyrone derivatives,Polyketides,Organoheterocyclic compounds,Pyrans,Pyranones and derivatives,NA
+X2431,NA,450.2788,537,1.9967,-0.17,-0.24,0.19,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X2568,NA,450.2788,537,2.1707,-0.17,-0.19,0.25,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X2802,NA,536.3047,548,2.3475,-0.2,-0.2,0.24,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X5190,NA,743.9009,71,3.07,-0.17,-0.24,0.27,Pseudoalkaloids,Marine-bacterial DPEs,Alkaloids,Organic acids and derivatives,Organic phosphoric acids and derivatives,Phosphate esters,NA
+X6813,NA,990.0616,12,3.3872,-0.2,-0.2,0.37,NA,NA,NA,NA,NA,NA,NA
+X6815,NA,985.5545,12,3.3892,-0.19,-0.18,0.34,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X6891,NA,979.5467,4,3.4029,-0.19,-0.19,0.41,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X6640,NA,1027.0707,12,3.4351,-0.18,-0.18,0.19,NA,NA,NA,NA,NA,NA,NA
+X7067,NA,1347.0945,409,3.4375,-0.16,-0.19,0.21,NA,NA,NA,NA,NA,NA,NA
+X7087,NA,1010.5724,12,3.4379,-0.17,-0.21,0.21,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7086,NA,1010.3222,12,3.438,-0.15,-0.19,0.22,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X6938,NA,808.6595,NA,3.4382,-0.18,-0.2,0.2,Oligopeptides,Lipopeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
+X7078,NA,1010.8227,12,3.4383,-0.16,-0.19,0.21,NA,NA,NA,NA,NA,NA,NA
+X6960,NA,1361.7649,409,3.439,-0.18,-0.17,0.18,Tyrosine alkaloids,Marine-bacterial DPEs,Alkaloids,Organohalogen compounds,Aryl halides,NA,NA
+X7070,NA,1021.5737,12,3.4402,-0.16,-0.16,0.17,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic Polymers,Polypeptides,NA,NA
+X7665,NA,1112.0306,159,3.4575,-0.17,-0.17,0.37,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7663,NA,927.0273,159,3.4598,-0.17,-0.19,0.36,Coumarins,Simple coumarins,Shikimates and Phenylpropanoids,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7106,NA,1115.2372,159,3.466,-0.21,-0.22,0.42,NA,NA,NA,NA,NA,NA,NA
+X7098,NA,1111.8316,159,3.4665,-0.24,-0.23,0.45,NA,NA,NA,NA,NA,NA,NA
+X7308,NA,1140.847,159,3.497,-0.2,-0.22,0.32,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7259,NA,950.704,159,3.4976,-0.22,-0.18,0.34,NA,NA,NA,NA,NA,NA,NA
+X7310,NA,1140.4442,29,3.4996,-0.19,-0.16,0.35,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7267,NA,1420.0494,NA,3.5017,-0.18,-0.16,0.29,NA,NA,NA,NA,NA,NA,NA
+X7465,NA,943.2057,159,3.5025,-0.21,-0.17,0.31,Small peptides,Purine nucleos(t)ides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7326,NA,1414.8042,29,3.5041,-0.22,-0.18,0.29,NA,NA,NA,NA,NA,NA,NA
+X6887,NA,946.0438,159,3.5042,-0.21,-0.16,0.34,Phenolic acids (C6-C1),Gallotannins,Shikimates and Phenylpropanoids,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
+X7432,NA,946.7065,NA,3.5049,-0.22,-0.17,0.33,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7385,NA,1131.8453,159,3.5053,-0.22,-0.17,0.34,Oligopeptides,Microginins,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7491,NA,1132.2447,NA,3.5055,-0.22,-0.18,0.34,NA,NA,NA,NA,NA,NA,NA
+X7387,NA,1131.6453,159,3.5057,-0.23,-0.18,0.34,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7970,NA,946.2096,159,3.5057,-0.23,-0.17,0.34,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7382,NA,1135.2504,159,3.5059,-0.23,-0.18,0.35,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X8116,NA,1135.4504,159,3.5064,-0.22,-0.17,0.33,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X7727,NA,1132.0452,159,3.5067,-0.22,-0.16,0.32,NA,NA,NA,NA,NA,NA,NA
+X7397,NA,1419.8011,29,3.5081,-0.21,-0.17,0.33,NA,NA,NA,NA,NA,NA,NA
+X7434,NA,1414.5538,29,3.5082,-0.22,-0.17,0.3,Pseudoalkaloids,Marine-bacterial DPEs,Alkaloids,Organoheterocyclic compounds,NA,NA,NA
+X7416,NA,1414.3035,29,3.5089,-0.21,-0.16,0.31,NA,NA,NA,NA,NA,NA,NA
+X7716,NA,1139.6441,152,3.5137,-0.22,-0.18,0.32,NA,NA,NA,NA,NA,NA,NA
+X7904,NA,1419.0581,29,3.5225,-0.26,-0.19,0.28,NA,NA,NA,NA,NA,NA,NA
+X7779,NA,1196.8661,NA,3.544,-0.19,-0.17,0.31,NA,NA,NA,NA,NA,NA,NA
+X7807,NA,1200.2716,214,3.5443,-0.2,-0.18,0.33,NA,NA,NA,NA,NA,NA,NA
+X7802,NA,1200.0714,214,3.5445,-0.21,-0.18,0.3,NA,NA,NA,NA,NA,NA,NA
+X9274,NA,1413.3861,62,3.7879,-0.23,-0.2,0.18,NA,NA,NA,NA,NA,NA,NA
+X10093,NA,886,62,3.8052,-0.16,-0.21,0.19,Anthranilic acid alkaloids,Purine nucleos(t)ides,Alkaloids,Organoheterocyclic compounds,Diazines,Pyrimidines and pyrimidine derivatives,Pyrimidones
+X9699,NA,917.1643,89,3.8089,-0.23,-0.19,0.21,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X9902,NA,917.2359,89,3.8444,-0.19,-0.16,0.17,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X9901,NA,987.7926,89,3.8566,-0.19,-0.17,0.27,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10310,NA,856.1534,107,3.8671,-0.18,-0.19,0.29,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10477,NA,917.0198,1029,3.8724,-0.18,-0.19,0.27,Oligopeptides,Cyclic peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10361,NA,918.7366,716,3.8739,-0.19,-0.16,0.26,Oligopeptides,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10308,NA,919.7399,89,3.8907,-0.19,-0.18,0.27,Ornithine alkaloids,Linear peptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10441,NA,917.1638,89,3.8907,-0.24,-0.21,0.28,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10379,NA,918.235,89,3.8974,-0.18,-0.2,0.23,Small peptides,Tripeptides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Peptides
+X10525,NA,517.241,54,3.9148,0.22,0.24,-0.16,Glycerophospholipids,Glycerophosphoinositols,Fatty acids,Lipids and lipid-like molecules,Glycerophospholipids,Glycerophosphoinositols,Lysophosphatidylinositols
+X11106,NA,291.199,315,4.1657,0.24,0.2,-0.48,Fatty Acids and Conjugates,Branched fatty acids,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty acids and conjugates,Medium-chain fatty acids
+X103_i,NA,1021.32 OR 1027.3242,12,3.43775,-0.17,-0.2,0.2,NA,NA,NA,NA,NA,NA,NA
+X104_i,NA,1015.8199 OR 1021.8264 OR 1021.8284,12,3.439366666666667,-0.16,-0.2,0.19,NA,NA,NA,NA,NA,NA,NA
+X117_i,NA,855.9518 OR 857.4216,107,3.8049999999999997,-0.18,-0.15,0.16,NA,NA,NA,NA,NA,NA,NA
+X118_i,NA,987.4036 OR 988.8681,NA,3.8120000000000003,-0.22,-0.18,0.21,NA,NA,NA,NA,NA,NA,NA
+X124_i,NA,987.4805 OR 987.4814 OR 988.9458 OR 988.9462 OR 988.9465,89 OR 1029,3.88992,-0.19,-0.18,0.24,Pseudoalkaloids,Purine nucleos(t)ides,Amino acids and Peptides,Organic acids and derivatives,Carboxylic acids and derivatives,"Amino acids, peptides, and analogues",Amino acids and derivatives
+X66_i,NA,189.1122 OR 229.1053,1004,1.2963,0.22,0.17,-0.26,Fatty Acids and Conjugates OR Saccharides,Hydroxy fatty acids OR Monosaccharides,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty acids and conjugates OR Fatty alcohols,Medium-chain fatty acids
+X95_i,NA,245.175 OR 285.1676,297,3.2687,0.22,0.21,-0.36,Glycerolipids,Monoacylglycerols,Fatty acids,Lipids and lipid-like molecules,Fatty Acyls,Fatty alcohols,
