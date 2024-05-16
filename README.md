@@ -16,4 +16,9 @@ Raw metabolomics data, converted data, feature finding parameters, and feature f
 - AU dataset: Sequencing data is deposited in [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/). Study ID PRJNA1108891.
 
 
+## Metadata
+
+- Deidetified metadata is available for the AU and ES datasets. To access metadata from the US dataset, please contact the [Mommy’s Milk Human Research Biorepository](https://mommysmilkresearch.org/human-milk-sample-request/) to complete a project form and IRB application for secondary data analysis.
+
+
 
