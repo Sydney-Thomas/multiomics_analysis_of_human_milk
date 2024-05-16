@@ -18,7 +18,7 @@ Raw metabolomics data, converted data, feature finding parameters, and feature f
 
 ## Metadata
 
-- Deidetified metadata is available for the AU and ES datasets. To access metadata from the US dataset, please contact the [Mommy’s Milk Human Research Biorepository](https://mommysmilkresearch.org/human-milk-sample-request/) to complete a project form and IRB application for secondary data analysis.
+- De-identified metadata is available for the AU and ES datasets. To access metadata from the US dataset, please contact the [Mommy’s Milk Human Research Biorepository](https://mommysmilkresearch.org/human-milk-sample-request/) to complete a project form and IRB application for secondary data analysis.
 
 
 
