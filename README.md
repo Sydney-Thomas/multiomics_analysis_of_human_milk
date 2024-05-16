@@ -14,6 +14,7 @@ Raw metabolomics data, converted data, feature finding parameters, and feature f
 
 - US dataset: Sequencing data is deposited in [Qiita](https://qiita.ucsd.edu/). Study ID 11366.
 - AU dataset: Sequencing data is deposited in [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/). Study ID PRJNA1108891.
+- ES dataset: Sequencing data is deposited in [Qiita](https://qiita.ucsd.edu/). Available upon request.
 
 
 ## Metadata
